@@ -1,7 +1,8 @@
+import Card from "@/components/Card";
 
 
 export default function RevenueAnalytics(){
     return(
-        <h1>Revenue Analytics</h1>
+        <Card>Revenue Analytics</Card>
     )
 }

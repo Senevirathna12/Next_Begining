@@ -10,13 +10,13 @@ type DashboardProp = {
 export default function DashboardLayout({ children , users ,revenue,notification  }: DashboardProp) {
   return (
     <>
-      <div className='p-2'>{children}</div>
-      <div className='flex'>
-        <div className='flex flex-col'>
-            <div>{users}</div>
+      <div className='p-2 text-center'>{children}</div>
+      <div className='flex w-full'>
+        <div className='flex flex-col w-1/2 p-4 gap-4'>
+            <div >{users}</div>
             <div>{revenue}</div>
         </div>
-        <div>{notification}</div>
+        <div className='w-1/2 p-4 flex flex-auto '>{notification}</div>
       </div>
     </>
   );

@@ -1,7 +1,8 @@
+import Card from "@/components/Card";
 
 
 export default function NotificationAnalytics(){
     return(
-        <h1>Notification Analytics</h1>
+        <Card>Notification Analytics</Card>
     )
 }

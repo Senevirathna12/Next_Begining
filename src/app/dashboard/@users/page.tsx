@@ -1,6 +1,7 @@
+import Card from "@/components/Card";
 
 export default function UsersSection(){
     return(
-        <h1>Users Analytics</h1>
+        <Card>Users Analytics</Card>
     )
 }
