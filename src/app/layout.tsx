@@ -10,12 +10,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+       <body className="min-h-screen flex flex-col">
         <header style={{
           backgroundColor: 'lightblue',
           padding:'1rem',
         }} >Header</header>
-        {children}
+        
+        <main className="flex-grow">{children}</main>
         <footer style={{
           backgroundColor: 'lightblue',
           padding:'1rem',
