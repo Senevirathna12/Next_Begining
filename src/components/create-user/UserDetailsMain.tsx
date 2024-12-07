@@ -44,7 +44,7 @@ export default function UserDetailsMain() {
               <input type="text" className="border-[1px] w-full p-1 rounded-md" />
             </div>
             <div className="flex flex-col items-center w-full  md:w-1/2">
-              <label htmlFor="" className="w-full">
+              <label htmlFor="" className="w-full ml-1">
                 User Group
               </label>
               <Select>

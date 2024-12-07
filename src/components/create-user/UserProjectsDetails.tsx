@@ -24,7 +24,7 @@ export default function UserProjectsDetails() {
         <CardContent className="flex flex-col gap-6 p-3 flex-grow h-full">
           <div className="flex items-center gap-4 w-full">
             <div className="flex flex-col items-center w-1/2">
-              <label htmlFor="" className="w-full">
+              <label htmlFor="" className="w-full ml-1">
                 Select Project
               </label>
               <Select>
@@ -39,7 +39,7 @@ export default function UserProjectsDetails() {
               </Select>
             </div>
             <div className="flex flex-col items-center w-1/2">
-              <label htmlFor="" className="w-full">
+              <label htmlFor="" className="w-full ml-1">
                 User Group
               </label>
               <Select>
